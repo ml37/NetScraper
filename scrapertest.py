@@ -4,7 +4,7 @@ import  requests
 from bs4 import BeautifulSoup
 from time import sleep
 
-r = requests.get('https://twitter.com/A_Dark_night_')
+r = requests.get('www.google.com')
 html = r.text
 
 soup = BeautifulSoup(html, 'html.parser')
